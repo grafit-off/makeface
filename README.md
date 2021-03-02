@@ -1,2 +1,2 @@
 # makeface
-GitHub Pages - grafit-off.github.io/makeface/
+GitHub Pages - https://grafit-off.github.io/makeface/
