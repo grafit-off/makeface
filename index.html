@@ -406,7 +406,7 @@
 						<span class="t-item__condition">КАЖДЫЕ <strong>20 ОПЛАТ</strong> + 1111 Р.</span>
 						<span class="t-item__price">11111 Р.</span>
 					</div>
-					<a href="" class="t-item__link btn-link-accent">ОПЛАТИТЬ</a>
+					<a href="#popup" class="t-item__link btn-link-accent popup-link">ОПЛАТИТЬ</a>
 				</article>
 			</li>
 			<li class="tariffs__item" data-aos="transform-from-bottom" data-aos-duration="300" data-aos-delay="500" data-aos-once="true">
@@ -425,7 +425,7 @@
 						<span class="t-item__condition">КАЖДЫЕ <strong>20 ОПЛАТ</strong> + 1111 Р.</span>
 						<span class="t-item__price">33333 Р.</span>
 					</div>
-					<a href="" class="t-item__link btn-link-accent">ОПЛАТИТЬ</a>
+					<a href="#popup" class="t-item__link btn-link-accent popup-link">ОПЛАТИТЬ</a>
 				</article>
 			</li>
 		</ul>
@@ -547,26 +547,39 @@
 		</ul>
 	</div>
 	<div class="snackbar"> Текст </div>
-</footer>
-<div class=popup id="popup" aria-describedby=popup-desc-1 aria-labelledby=popup-title-1 aria-modal=true role=dialog>
-	<div class=popup__wrapper>
-		<div class=popup__content>
-			<button aria-label='Close Modal' class='popup__close close-popup'>
-				×
-			</button>
-			<h3 class=popup__title id=popup-title-1>
-				<span class="popup__course"></span>
-			</h3>
-			<p class=popup__desc id=popup-desc-1>
-				Оформление подписки на курс, заполните форму!
-			<div class='content popup__body'>
+	<div class=popup id="popup" aria-describedby=popup-desc-1 aria-labelledby=popup-title-1 aria-modal=true role=dialog>
+		<div class=popup__wrapper>
+			<div class=popup__content>
+				<button aria-label='Close Modal' class='popup__close close-popup'>
+					×
+				</button>
+				<h3 class=popup__title id=popup-title-1>
+					<span class="popup__course"></span>
+				</h3>
+				<p class=popup__desc id=popup-desc-1>
+					Оформление подписки на курс, заполните форму!
+				<form action="#" class='popup__body form'>
+					<label for="" class="form__label form__label--text">
+						Ваше имя:
+						<input type="text" required>
+					</label>
+
+					<label for="" class="form__label form__label--tel">
+						Ваша почта:
+						<input type="email" required>
+					</label>
+					<label for="" class="form__label form__label--mail">
+						Ваш номер телефона:
+						<input type="tel" required>
+					</label>
+					<button type="submit" class='form__btn btn-link-accent'>Оформить покупку</button>
+				</form>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 	</div>
 	<script src="resources/libs/swiper-bundle.min.js"></script>
-
 	<script src="resources/libs/aos.js"></script>
 	<script src="js/main.js"></script>
 
