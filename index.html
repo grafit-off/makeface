@@ -70,6 +70,7 @@
 
 	<link rel="shortcut icon" href="resources/favicon.png" />
 	<link rel="stylesheet" href="resources/libs/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="resources/libs/aos.css">
 	<link rel="stylesheet" href="css/main.min.css" />
 	<title>Интенсив по скоростному наращиванию ресниц</title>
 </head>
@@ -79,29 +80,30 @@
 		<use xlink:href="img/sprite.svg#название файла"></use>
 	</svg> -->
 	<div class="wrapper">
-		<header class="header">
+		<header class="header lock-padding">
 	<div class="header__container container">
 		<div class="header__body">
 			<h3 class="header__heading">
-				<span>ИНТЕНСИВ </span>
-				ЮЛИИ ВОРМАН
+				<a href="#promo" class="header__link">
+					<span>ИНТЕНСИВ </span>
+					ЮЛИИ ВОРМАН</a>
 			</h3>
 			<button class="header__burger btn-reset" aria-label="Меню">
 				<span></span>
 			</button>
 			<nav class="header__menu">
 				<ul class="header__list">
-					<li class="header__item ">
-						<a href="#" class="header__link">ДЛЯ КОГО?</a>
+					<li class="header__item">
+						<a href="#characters" class="header__link">ДЛЯ КОГО?</a>
 					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">ЧТО БУДЕТ НА ИНТЕНСИВЕ?</a>
+						<a href="#pluses" class="header__link">ЧТО БУДЕТ НА ИНТЕНСИВЕ?</a>
 					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">О ЮЛИИ</a>
-					</li class="header__item">
+						<a href="#about" class="header__link">О ЮЛИИ</a>
+					</li>
 					<li class="header__item">
-						<a href="#" class="header__link">ТАРИФЫ</a>
+						<a href="#tariffs" class="header__link">ТАРИФЫ</a>
 					</li>
 				</ul>
 			</nav>
@@ -109,55 +111,54 @@
 	</div>
 </header>
 		<main class="main-content">
-			<section class="promo">
+			<section id="promo" class="promo">
 	<div class="promo__container container">
-		<h1 class="promo__heading main-heading">
+		<h1 class="promo__heading main-heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="50">
 			<span>ПЕРВЫЙ В МИРЕ ИНТЕНСИВ</span>
 			ПО СКОРОСТНОМУ НАРАЩИВАНИЮ РЕСНИЦ
 		</h1>
-		<p class="promo__text">ХОЧЕШЬ НАРАЩИВАТЬ 4D ЗА 1 ЧАС?
+		<p class="promo__text" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">ХОЧЕШЬ НАРАЩИВАТЬ 4D ЗА 1 ЧАС?
 
 			НАУЧУ ТЕБЯ НА ИНТЕНСИВЕ 29 МАРТА
 		</p>
 		<div class="promo__links">
-			<a href="#" class="promo__link btn-link-accent">ЗАПИСАТЬСЯ</a>
-			<a href="#" class="promo__link btn-link-border">ПРОГРАММА</a>
+			<a href="#tariffs" class="promo__link btn-link-accent" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">ЗАПИСАТЬСЯ</a>
+			<a href="#programm" class="promo__link btn-link-border" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">ПРОГРАММА</a>
 		</div>
-		<img src="img/section-1-bg.png" alt="Эмодзи девушка с фиолетовыми волосами" class="promo__img">
+		<img src="img/section-1-bg.png" alt="Эмодзи девушка с фиолетовыми волосами" data-aos="transform-from-bottom-scale" data-aos-duration="800" class="promo__img">
 	</div>
 </section>
-<section class="characters">
+<section id="characters" class="characters section">
 	<div class="characters__container container">
 		<h2 class="characters__heading main-heading">ТЕБЕ НА ИНТЕНСИВ ЕСЛИ ТЫ</h2>
 		<ul class="characters__list c-list ">
-			<li class="c-list__item c-item text">
+			<li class="c-list__item c-item text" data-aos="transform-from-left" data-aos-duration="400" data-aos-delay="0" data-aos-once="true">
 				<div class="c-item__wrapper">
 					<img src="img/character-list1.png" alt="" class="c-item__image" aria-hidden="true">
 					ЛАШМЕЙКЕР, КОТОРЫЙ ДЕЛАЕТ НАРАЩИВАНИЕ <strong>ДОЛЬШЕ ОДНОГО ЧАСА?</strong>
 				</div>
 			</li>
-			<li class="c-list__item c-item text">
+			<li class="c-list__item c-item text" data-aos="transform-from-top" data-aos-duration="400" data-aos-delay="800" data-aos-once="true">
 				<div class="c-item__wrapper">
 					<img src="img/character-list2.png" alt="" class="c-item__image" aria-hidden="true">
 					МАСТЕР, КОТОРЫЙ ХОЧЕТ <strong>ПОМЕНЯТЬ МЫШЛЕНИЕ</strong> О НАРАЩИВАНИИ РЕСНИЦ
 				</div>
 			</li>
-			<li class="c-list__item c-item text">
+			<li class="c-list__item c-item text" data-aos="transform-from-right" data-aos-duration="400" data-aos-delay="400" data-aos-once="true">
 				<div class="c-item__wrapper">
 					<img src="img/character-list3.png" alt="" class="c-item__image" aria-hidden="true">
 					СПЕЦИАЛИСТ, КОТОРОМУ НЕОБХОДИМЫ <strong>ПОДДЕРЖКА И КОМЬЮНИТИ РЯДОМ</strong>
 				</div>
 			</li>
-
 		</ul>
 		<div class="characters__banner">
 			<p class="characters__text">ЗАРЯДИСЬ ЭНЕРГИЕЙ И СТАНЬ САМЫМ ЗНАМЕНИТЫМ МАСТЕРОМ СВОЕГО ГОРОДА</p>
-			<a href="#" class="characters__link btn-link-accent">ЗАПИСАТЬСЯ</a>
+			<a href="#tariffs" class="characters__link btn-link-accent">ЗАПИСАТЬСЯ</a>
 		</div>
 		<img src="img/characters-bg.png" alt="" class="characters__image" aria-hidden="true">
 	</div>
 </section>
-<section class="pluses">
+<section id="pluses" class="pluses section">
 	<div class="pluses__container container">
 		<h2 class="pluses__heading main-heading">
 			НА ИНТЕНСИВЕ ТЕБЯ ЖДЕТ
@@ -190,7 +191,7 @@
 		</ul>
 	</div>
 </section>
-<section class="about">
+<section id="about" class="about section">
 	<div class="about__container container">
 		<h2 class="about__heading main-heading">
 			И, КОНЕЧНО, ЮЛИЯ ВОРМАН
@@ -201,17 +202,17 @@
 				<p class="about__text text">Я ОСНОВАЛА СЕТЬ САЛОНОВ VERSUS И ТЕПЕРЬ АКТИВНО ЗАПУСКАЮ СВОИ ОБУЧЕНИЯ ПО СКОРОМТНОМУ НАРАЩИВАНИЮ. ЛОМАЮ СТЕРЕОТИПЫ, УЧУ МАСТЕРОВ ПОДНИМАТЬ ЧЕКИ И ЗАРАБАТЫВАТЬ МИЛЛИОНЫ.</p>
 				<ul class="about__list">
 					<li class="about__item">
-						<div>1 ЧАС</div>
+						<span>1 ЧАС</span>
 						САМОЕ БЫСТРОЕ 5D
 					</li>
 					<li class="about__item">
-						<div>12+ ЛЕТ</div>РАБОТАЮ СВОЕЙ СФЕРЕ
+						<span>12+ ЛЕТ</span>РАБОТАЮ СВОЕЙ СФЕРЕ
 					</li>
 					<li class="about__item">
-						<div>1+ МЛН</div>В МЕСЯЦ ДЕЛАЮ НА РЕСНИЦАХ
+						<span>1+ МЛН</span>В МЕСЯЦ ДЕЛАЮ НА РЕСНИЦАХ
 					</li>
 					<li class="about__item">
-						<div>100000+</div>КЛИЕНТОК Я ОСЧАСТЛИВИЛА
+						<span>100000+</span>КЛИЕНТОК Я ОСЧАСТЛИВИЛА
 					</li>
 				</ul>
 				<p class="about__text text">ВСЕ МОИ НАРАЩИВАНИЯ Я ДЕЛАЮ ЗА 1 - МАКСИМУМ 1.5 ЧАСА
@@ -221,14 +222,352 @@
 		</div>
 	</div>
 </section>
+<section id="programm" class="programm">
+	<div class="programm__container container">
+		<h2 class="programm__heading main-heading" data-aos="transform-from-top" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">ВОТ ТАКАЯ ПРОГРАММА ИНТЕНСИВА</h2>
+		<div class="programm__acordion" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0" data-aos-once="true">
+			<div class='acordion' role='presentation'>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>1</b>. ВВОДНЫЙ УРОК</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>2</b>. СКОРОСТНОЕ СНЯТИЕ РЕСНИЦ</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>3</b>. РАБОТА С КЛЕЕМ. КАК ПРОДЛИТЬ НОСКУ</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>4</b>. ЗДОРОВЬЕ МАСТЕРА</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>5</b>. ЛИЧНЫЙ БРЕНД В <b>INSTAGRAM</b>: ПОЧЕМУ УВЯДАЮТ КОММЕРЧЕСКИЕ АККАУНТЫ</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>6</b>. ЛОМАЕМ СТЕРЕОТИПЫ МОДЕЛИРОВАНИЯ: ЧЕМ СЛОЖНЕЕ ПРИДУМАЛ, ТЕМ СЛОЖНЕЕ ЖИТЬ</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>7</b>. КЛАССИЧЕСКОЕ НАРАЩИВАНИЕ РЕСНИЦ</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>8</b>. ПУЧОК. КАК БЫСТРО И ПРАВИЛЬНО ФОРМИРОВАТЬ ТЕБЯ, ДРУЖОК?</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">УРОК <b>9</b>. НАРАЩИВАЕМ ОБЪЕМЫ <strong>2D+</strong> </button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="programm__banner">
+			<a href="#tariffs" class="programm__link btn-link-accent">Записаться</a>
+			<p class="programm__text">Все еще думаешь?
+				<span class="programm__text--br">А места разбирают уже сейчас!</span>
+			</p>
+			<img src="img/characters-bg.png" alt="" class="programm__image" aria-hidden="true">
+		</div>
+	</div>
+</section>
+<section id="tariffs" class="tariffs section">
+	<div class="tariffs__container container">
+		<h2 class="tariffs__heading main-heading">
+			ТАРИФЫ УЧАСТИЯ
+		</h2>
+		<ul class="tariffs__list">
+			<li class="tariffs__item" data-aos="transform-from-bottom" data-aos-duration="300" data-aos-delay="100" data-aos-once="true">
+				<article class="t-item t-item--image1">
+					<h3 class="t-item__heading">LITE (САМОСТОЯТЕЛЬНЫЙ)</h3>
+					<ul class="t-item__list">
+						<li class="t-item__item">9 ПОДРОБНЫХ УРОКОВ</li>
+						<li class="t-item__item">9 ЗАДАНИЙ НА ПОСТРОЕНИЕ СКОРОСТНОЙ РАБОТЫ</li>
+						<li class="t-item__item">ЧАТ С ЕДИНОМЫШЛЕННИКАМИ </li>
+						<li class="t-item__item">ДОПОЛНИТЕЛЬНЫЙ УРОК: ЛИЧНЫЙ БРЕНД ДЛЯ БЬЮТИ-СФЕРЫ</li>
+						<li class="t-item__item t-item__item--strike" aria-hidden="true">2 МАСТЕРМАИНДА С ЮЛИЕЙ ВОРМАН</li>
+						<li class="t-item__item t-item__item--strike" aria-hidden="true">ЛИЧНОЕ ВЕДЕНИЕ ОТ ЮЛИИ ВОРМАН</li>
+					</ul>
+					<div class="t-item__length">ДЛИТЕЛЬНОСТЬ: 14 ДНЕЙ</div>
+					<div class="t-item__info">
+						<span class="t-item__condition">КАЖДЫЕ <strong>20 ОПЛАТ</strong> + 1111 Р.</span>
+						<span class="t-item__price">6666 Р.</span>
+					</div>
+					<a href="#popup" class="t-item__link btn-link-accent popup-link">ОПЛАТИТЬ</a>
+				</article>
+			</li>
+			<li class="tariffs__item" data-aos="transform-from-bottom" data-aos-duration="300" data-aos-delay="300" data-aos-once="true">
+				<article class="t-item t-item--image2">
+					<h3 class="t-item__heading">PLUS (С КУРАТОРОМ)</h3>
+					<ul class="t-item__list">
+						<li class="t-item__item">9 ПОДРОБНЫХ УРОКОВ</li>
+						<li class="t-item__item">9 ЗАДАНИЙ НА ПОСТРОЕНИЕ СКОРОСТНОЙ РАБОТЫ</li>
+						<li class="t-item__item">ЧАТ С ЕДИНОМЫШЛЕННИКАМИ </li>
+						<li class="t-item__item">ДОПОЛНИТЕЛЬНЫЙ УРОК: ЛИЧНЫЙ БРЕНД ДЛЯ БЬЮТИ-СФЕРЫ</li>
+						<li class="t-item__item">2 МАСТЕРМАИНДА С ЮЛИЕЙ ВОРМАН</li>
+						<li class="t-item__item t-item__item--strike" aria-hidden="true">ЛИЧНОЕ ВЕДЕНИЕ ОТ ЮЛИИ ВОРМАН</li>
+					</ul>
+					<div class="t-item__length">ДЛИТЕЛЬНОСТЬ: 14 ДНЕЙ</div>
+					<div class="t-item__info">
+						<span class="t-item__condition">КАЖДЫЕ <strong>20 ОПЛАТ</strong> + 1111 Р.</span>
+						<span class="t-item__price">11111 Р.</span>
+					</div>
+					<a href="" class="t-item__link btn-link-accent">ОПЛАТИТЬ</a>
+				</article>
+			</li>
+			<li class="tariffs__item" data-aos="transform-from-bottom" data-aos-duration="300" data-aos-delay="500" data-aos-once="true">
+				<article class="t-item t-item--image3">
+					<h3 class="t-item__heading">BOMBA (С ЮЛИЕЙ ВОРМАН)</h3>
+					<ul class="t-item__list">
+						<li class="t-item__item">9 ПОДРОБНЫХ УРОКОВ</li>
+						<li class="t-item__item">9 ЗАДАНИЙ НА ПОСТРОЕНИЕ СКОРОСТНОЙ РАБОТЫ</li>
+						<li class="t-item__item">ЧАТ С ЕДИНОМЫШЛЕННИКАМИ </li>
+						<li class="t-item__item">ДОПОЛНИТЕЛЬНЫЙ УРОК: ЛИЧНЫЙ БРЕНД ДЛЯ БЬЮТИ-СФЕРЫ</li>
+						<li class="t-item__item">2 МАСТЕРМАИНДА С ЮЛИЕЙ ВОРМАН</li>
+						<li class="t-item__item">ЛИЧНОЕ ВЕДЕНИЕ ОТ ЮЛИИ ВОРМАН</li>
+					</ul>
+					<div class="t-item__length">ДЛИТЕЛЬНОСТЬ: 14 ДНЕЙ</div>
+					<div class="t-item__info">
+						<span class="t-item__condition">КАЖДЫЕ <strong>20 ОПЛАТ</strong> + 1111 Р.</span>
+						<span class="t-item__price">33333 Р.</span>
+					</div>
+					<a href="" class="t-item__link btn-link-accent">ОПЛАТИТЬ</a>
+				</article>
+			</li>
+		</ul>
+		<div class="tariffs__banner">
+			<img src="img/p-list4.png" alt="Подарок" class="tariffs__image">
+			<p class="tariffs__text text">ИДЕТЕ НА ИНТЕНСИВ? ВЫЛОЖИТЕ ОБ ЭТОМ СТОРИС-ШАБЛОН С ОТМЕТКОЙ ЮЛИИ ВОРМАН И ВАС БУДЕТ ЖДАТЬ РОЗЫГРЫШ ДОПОЛНИТЕЛЬНОГО ПОДАРКА!</p>
+			<a href="#" class="tariffs__link btn-link-border">СТОРИС-ШАБЛОН</a>
+			<a href="#" class="tariffs__link">@ULIAVORMAN</a>
+		</div>
+	</div>
+</section>
+<section class="questions">
+	<div class="questions__container container">
+		<h2 class="questions__heading main-heading">А ТАКИЕ ВОПРОСЫ МОГУТ БЫТЬ У ВАС</h2>
+		<div class="questions__acordion">
+			<div class='acordion' role='presentation'>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">Я ТОЧНО ВСЕМУ НАУЧУСЬ? У МЕНЯ ПОЛУЧИТСЯ?</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">КАК Я БУДУ УЧИТЬСЯ СКОРОСТНОМУ НАРАЩИВАНИЮ ОНЛАЙН?</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">СКОЛЬКО ВРЕМЕНИ БУДЕТ УХОДИТЬ НА ВЫПОЛНЕНИЕ ДЗ?</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">КАК ЧАСТО БУДУТ ВЫХОДИТЬ УРОКИ?</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+				<div class='acordion__wrapper' role='presentation'>
+					<button class='acordion__subtitle acordion-triger' tabindex="0">КАКАЯ ТЕХНИКА БУДЕТ ОТРАБАТЫВАТЬСЯ: РУЧНАЯ ИЛИ ЛЕНТОЧНАЯ?</button>
+					<ul class='acordion__body'>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+						<li class="acordion__item">
+							Какой-то текст, которого <strong>нету</strong> в макете и вообще возможно это не <strong>акордион</strong>?
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="questions__banner">
+			<img src="img/telegramm.png" alt="Иконка приложения телеграм,голубая" class="questions__image questions__image--tg">
+			<p class="questions__text text">У ВАС ЕСТЬ ДРУГОЙ ВОПРОС? НАПИШИТЕ МНЕ В ТЕЛЕГРАМ</p>
+			<a href="#telegram" class="questions__link btn-link-accent">НАПИСАТЬ</a>
+			<img src="img/characters-bg.png" alt="" aria-hidden="true" class="questions__image questions__image--women" data-aos="transform-from-right" data-aos-duration="300" data-aos-delay="300" data-aos-once="true">
+		</div>
+	</div>
+</section>
 		</main>
 		<footer class="footer">
 	<div class="footer__container container">
+		<div class="footer__left">
+			<span class="footer__info">ЮЛИЯ ВОРМАН</span>
+			<span class="footer__info">ИНН: 5456456445645</span>
+			<span class="footer__info">ОГРНИП: FE1645564</span>
+		</div>
+		<div class="footer__center">
+			<a href="#promo" class="footer__link"> Наверх</a>
+			<a href="#promo" class="footer__link">Design by @kemfetka</a>
+		</div>
+		<ul class="footer__list">
+			<li class="footer__item">
+				<a href="#" class="footer__link">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+			</li>
+			<li class="footer__item">
+				<a href="#" class="footer__link">ДОГОВОР-ОФЕРТА</a>
+			</li>
+			<li class="footer__item">
+				<a href="#" class="footer__link">СВЯЗАТЬСЯ С НАМИ</a>
+			</li>
+		</ul>
 	</div>
 	<div class="snackbar"> Текст </div>
 </footer>
+<div class=popup id="popup" aria-describedby=popup-desc-1 aria-labelledby=popup-title-1 aria-modal=true role=dialog>
+	<div class=popup__wrapper>
+		<div class=popup__content>
+			<button aria-label='Close Modal' class='popup__close close-popup'>
+				×
+			</button>
+			<h3 class=popup__title id=popup-title-1>
+				<span class="popup__course"></span>
+			</h3>
+			<p class=popup__desc id=popup-desc-1>
+				Оформление подписки на курс, заполните форму!
+			<div class='content popup__body'>
+			</div>
+		</div>
+	</div>
+</div>
 	</div>
 	<script src="resources/libs/swiper-bundle.min.js"></script>
+
+	<script src="resources/libs/aos.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
